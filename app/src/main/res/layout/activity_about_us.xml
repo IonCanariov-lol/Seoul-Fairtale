@@ -1,0 +1,38 @@
+<!-- res/layout/activity_about_us.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/backround_image"
+    tools:context=".AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/about_us_image"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="About Us"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Welcome to Seoul Fairtale, located in the heart of Horsens, Denmark. We offer a diverse menu crafted with the finest ingredients and a cozy atmosphere that promises an unforgettable dining experience. Join us and savor the flavors of exquisite cuisine in a charming setting."
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+    </LinearLayout>
+</ScrollView>
